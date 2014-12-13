@@ -33,6 +33,13 @@ b, strong {
     font-weight: 600;
 }
 
+p.min{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-style: italic;
+}
+
 img.main {
     background: transparent;
     border: 5px solid rgba(188, 226, 232, 0.3);
