@@ -1,75 +1,157 @@
 <!DOCTYPE html>
-<html>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Jun's Homepage</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
+<html lang="jp">
 
-    <body>
-        <h1>Jun's Homepage</h1>
-        <img class="top" src="image/top.jpg"/>
-        <p class="min">
-            シンガポール マリーナベイサンズの夜景
-        </p>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="jun">
+    <meta name="description" content="TwelvePenguin'sのホームページ" />
+    <meta name="author" content="jun" />
+    <title>TwelvePenguin's</title>
+    <link rel="shortcut icon" href="img/favnyaa.ico" />
+    <link rel="apple-touch-icon" href="img/starchaser.png" />
 
-        <h2>まずは自己紹介から</h2>
-        <p>
-            はじめまして<a href="https://twitter.com/jun1007na">＠Jun1007na</a>です。
-        </p>
-        <p>
-            Nagaoka-NCTの学生で、毎日、のほほんと過ごしています。趣味はAndroidアプリを作ってみたり、PCゲームをしたり、YouTubeを見たりとしています。今年の夏休みに海外研修でシンガポールに行ってきました。そうゆうのにも興味があって参加してます。（英語はちょっとニガテですが...）よろしくお願いします。
-        </p>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.maximage.min.css">
+    <link rel="stylesheet" href="css/navbar-fixed-right.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <h2>趣味</h2>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        <h3>Androidアプリ制作</h3>
-        <p>
-            中学３年の頃からAndroidのアプリを作り始めました。（Android2.3から開発をはじめました）私がプログラミングを始めたきっかけです。それからこの高専に来て部活でC言語を学んだりしています。なのでJavaもC言語も結構楽しんで勉強してこれました。
-        </p>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        <h3>PC関係いろいろ</h3>
-        <p>
-            昔からメカニックなものが好きで、小さい頃は電気のスイッチをポチポチしたり、ものが壊れたらとりあえず分解したり、電子工作をしてみたりしました。そんなこともあってPCの自作とかもしています。オリジナルのPCが作れるのは楽しいデス。
-        </p>
-        <p>
-            最近ではハードじゃなくてソフトのほうに興味を持っていて、プログラミングとかもそうなんですが、アプリを作ったり、Linuxを使ってMinecraftのサーバーを立てて遊んだりしています。（借り物サーバーですが...）ここらへんはとても充実しています。
-        </p>
+        ga('create', 'UA-89561146-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
 
-        <h3>音楽</h3>
-        <p>
-            好きなアーティストはスキマスイッチ、B'z、Superflyとかですね。それにピアノをやっていたこともあってピアノ曲もよく聞きます。でも、世界的に有名な曲じゃなくて、好きな曲の演奏をYouTubeとかニコニコから持ってきて聞いています。（このページもピアノを聞きながら作っています）
-        </p>
+<body>
 
-        <h2>ギャラリー</h2>
+    <div class="wrapper">
 
-        <table border="0" align="center">
-            <tr>
-                <div style="text-align:center">
-                    <td>
-                        <img class="main" alt="ECApp" src="image/ecapp.JPG" width="300" height="450"/>
-                        <p>
-                            私のクラスの学習支援アプリです。<br/>
-                            時間割やクラスのWebサイトの更新を見れます。
-                        </p>
+        <div id="navbar"></div>
 
-                    </td>
-                    <td>
-                        <img class="main" alt="Singapore" src="image/singa.jpg" width="450" height="300"/>
-                        <p>
-                            夏に海外研修で行ったシンガポールの写真です。
-                        </p>
-                    </td>
+        <section class="container t_white">
+            <div class="row">
+                <div id="c_ourinfo" class="col-xs-12">
+                    <h1><strong>MY INFO</strong></h1>
+                    <hr>
+                    <p class="lead">こんにちは、Jun(@twelvepenguin)です。
+                        <br>ここは私のホームページです．
+                        <br>各SNSへはこちらから行けます．
+                    </p>
+                    <h3><strong>気になる & 追いかけてる分野</strong></h3>
+                    <ul class="lead">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <li>Android アプリ開発</li>
+                                <li>ホームページ制作</li>
+                                <li>映像技術研究</li>
+                                <li>ガジェット</li>
+                                <li>サーバー</li>
+                                <li>Unity</li>
+                                <li>VR / AR</li>
+                            </div>
+                            <div class="col-sm-6">
+                                <li>Unity</li>
+                                <li>AndroidStudio / Eclipse</li>
+                                <li>Xcode</li>
+                                <li>OpenCV</li>
+                                <li>Linux</li>
+                                <li>Git</li>
+                            </div>
+                        </div>
+                    </ul>
+                    <h3><strong>言語</strong></h3>
+                    <ul class="lead">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <li>C / C++</li>
+                                <li>C#</li>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                            </div>
+                            <div class="col-sm-6">
+                                <li>Ruby (Ruby on Rails)</li>
+                                <li>HTML / CSS</li>
+                                <li>Python</li>
+                                <li>Swift</li>
+                            </div>
+                        </div>
+                    </ul>
                 </div>
-            </tr>
-        </table>
+                <div id="c_works" class="col-xs-12">
+                    <h1><strong>HISTORY (Under Constructing...)</strong></h1>
+                    <hr>
+                    <dl class="dl-horizontal lead a_white">
+                        <dt>20XX/XX/XX</dt>
+                        <dd><a href="http://www.nagaoka-ct.ac.jp/st/densanki/"><i class="fa fa-link" aria-hidden="true"></i>長岡高専 電算機部ホームページ</a></dd>
+                        <dt>20XX/XX/XX</dt>
+                        <dd>ホームページ作成</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
 
-        <h3>リンク</h3>
-        <p>
-            Twitter : <a href="https://twitter.com/jun1007na">＠Jun1007na</a><br>
-            GitHub : <a href="https://github.com/jun1007na">＠Jun1007na</a>
-        </p>
+    </div>
 
-    </body>
+    <div id="bg_mosaic"></div>
+
+    <div id="maximage">
+
+        <!--
+        <img src="img/catch1.png" width="1095" height="730" />
+        <img src="img/catch2.png" width="1095" height="730" />
+        <img src="img/catch3.jpg" width="1095" height="730" />
+        <img src="img/catch4.jpg" width="1095" height="730" />
+        <img src="img/catch5.jpg" width="1095" height="730" />
+        <img src="img/catch6.jpg" width="1095" height="730" />
+-->
+
+
+        <img src="img/test1.jpg" width="1095" height="730" />
+        <img src="img/test2.jpg" width="1095" height="730" />
+        <img src="img/test3.jpg" width="1095" height="730" />
+
+    </div>
+
+    <!--
+<div id="logo">
+    <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
+        <img src="img/logo.png" width="200" height="100" class="visible-lg visible-md">
+    </a>
+</div>
+-->
+
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- library -->
+    <script type="text/javascript" src="js/lib.js"></script>
+
+</body>
+
 </html>
