@@ -47,7 +47,7 @@
       opacity: 0.7;
       z-index: 5;
       zoom: 1;
-      background: url("/img/bg_mosaic1.png");
+      background: url("/img/bg_mosaic1_b.png");
     }
 
     #logo {
@@ -93,6 +93,22 @@
   </style>
   <!-- javascript libraries -->
   <script src="js/lib.js"></script>
+  <!-- custom scripts -->
+  <script>
+    $(function() {
+      $("#maximage").maximage({
+          cycleOptions: {
+            timeout: 5e3
+          }
+        }), $("c_ourinfo").hide(), $("#c_works").hide(), $("#bg_mosaic").css('background', 'url("/img/bg_mosaic1_b.png")'),
+        $("#b_home").click(function() {
+          $("#c_ourinfo").hide(), $("#bg_mosaic").css("background", 'url("/img/bg_mosaic1_b.png")')
+        }),
+        $("#b_ourinfo").click(function() {
+          $("#c_ourinfo").fadeIn(500), $("#bg_mosaic").css("background", 'url("/img/bg_mosaic2_b.png"), url("/img/bg_mosaic3_b.png")')
+        })
+    });
+  </script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -135,10 +151,6 @@
         <!-- /.navbar-collapse -->
       </div>
       <!-- /.container -->
-
-      <!-- contents view controller -->
-      <script type="text/javascript" src="js/cvc.js"></script>
-
     </nav>
 
     <section class="container t_white">
@@ -208,24 +220,6 @@
     <img src="img/catch8.jpg" />
     <img src="img/catch9.jpg" />
   </div>
-
-  <!-- custom scripts -->
-  <script>
-    $(function() {
-      $("#maximage").maximage({
-          cycleOptions: {
-            timeout: 5e3
-          }
-        }), $("c_ourinfo").hide(), $("#c_works").hide(), $("#bg_mosaic").css('background', 'url("/img/bg_mosaic1_b.png")'),
-        $("#b_home").click(function() {
-          $("#c_ourinfo").hide(), $("#bg_mosaic").css("background", 'url("/img/bg_mosaic1_b.png")')
-        }),
-        $("#b_ourinfo").click(function() {
-          $("#c_ourinfo").fadeIn(500), $("#bg_mosaic").css("background", 'url("/img/bg_mosaic2_b.png"), url("/img/bg_mosaic3_b.png")')
-        })
-    });
-  </script>
-
 </body>
 
 </html>
