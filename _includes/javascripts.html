@@ -1,0 +1,26 @@
+<!-- javascript libraries -->
+<script src="/assets/js/lib.js"></script>
+
+<!-- custom scripts -->
+<script>
+    $(function() {
+        $("#maximage").maximage({
+                cycleOptions: {
+                    timeout: 5e3
+                }
+            }), $("#c_ourinfo").fadeIn(500), $("#c_works").hide(), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic2_b.png"), url("/assets/img/bg_mosaic3_b.png")'),
+            $("#b_home").click(function() {
+                $("#c_ourinfo").hide(), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic1_b.png")')
+            }),
+            $("#b_ourinfo").click(function() {
+                $("#c_ourinfo").fadeIn(500), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic2_b.png"), url("/assets/img/bg_mosaic3_b.png")')
+            })
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $(".navbar-nav li a").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
+</script>

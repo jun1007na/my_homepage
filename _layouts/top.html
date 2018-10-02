@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- include meta, favicon -->
+    {% include meta.html %}
+    <!-- title -->
+    <title>Winter Blizzard</title>
+    <!-- include stylesheet -->
+    {% include stylesheets.html %}
+</head>
+
+<body>
+    {% include nav.html%}
+    <!-- main contents-->
+    <main role="main" class="wrapper">
+        <!-- myself -->
+        {% include myself.html %}
+    </main>
+
+    <div id="bg_mosaic"></div>
+
+    <div id="maximage">
+        <img src="/assets/img/catch1.jpg" />
+        <img src="/assets/img/catch2.jpg" />
+        <img src="/assets/img/catch3.jpg" />
+        <img src="/assets/img/catch4.jpg" />
+        <img src="/assets/img/catch5.jpg" />
+        <img src="/assets/img/catch6.jpg" />
+        <img src="/assets/img/catch7.jpg" />
+        <img src="/assets/img/catch8.jpg" />
+        <img src="/assets/img/catch9.jpg" />
+        <img src="/assets/img/catch10.jpg" />
+    </div>
+
+    <!-- include javascripts -->
+    {% include javascripts.html %}
+</body>
+
+</html>

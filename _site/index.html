@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- include meta, favicon -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Winter Blizzard" />
+<meta name="author" content="jun107na" />
+<link rel="icon" href="/assets/img/favicon.ico">
+<link rel="shortcut icon" href="/assets/img/favjun.ico" />
+<link rel="apple-touch-icon" href="/assets/img/jun.png" />
+
+    <!-- title -->
+    <title>Winter Blizzard</title>
+    <!-- include stylesheet -->
+    <!-- Font Awesome CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="/assets/css/lib.css">
+
+<style>
+    body {
+        /*        background: #000;*/
+    }
+
+
+    /* start ナビゲーションバー周り */
+
+    .navbar-brand {
+        font-size: 1.6rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+
+    .navbar-nav>li>a {
+        font-size: 1.9rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+
+    /* end ナビゲーションバー周り */
+
+    #bg_mosaic {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        filter: alpha(opacity=70);
+        -moz-opacity: 0.7;
+        opacity: 0.7;
+        z-index: 5;
+        zoom: 1;
+        background: url("/assets/img/bg_mosaic1_b.png");
+    }
+
+    #logo {
+        position: fixed;
+        bottom: 1vw;
+        right: 1vw;
+        z-index: 15;
+    }
+
+    .t_white {
+        color: #eee;
+        /*	text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);*/
+    }
+
+    .wrapper {
+        position: relative;
+        z-index: 10;
+    }
+
+    #c_ourinfo {
+        display: none;
+    }
+
+    #c_works {
+        display: none;
+    }
+
+    .a_white a:link {
+        color: white;
+    }
+
+    .a_white a:visited {
+        color: white;
+    }
+
+    .a_white a:hover {
+        color: white;
+    }
+
+    .a_white a:active {
+        color: white;
+    }
+
+</style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-right">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" id="b_home"><i class="fa fa-home"></i> HOME </a></li>
+                <li><a href="#" id="b_ourinfo"><i class="fa fa-info-circle"></i> MY INFO </a></li>
+                <li><a href="https://twitter.com/jun1007na"><i class="fa fa-twitter"></i> TWITTER </a></li>
+                <li><a href="https://github.com/jun1007na"><i class="fa fa-github"></i> GITHUB </a></li>
+                <li><a href="http://junatandat.hatenablog.com/"><i class="fa fa-pencil"></i> BLOG </a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- main contents-->
+    <main role="main" class="wrapper">
+        <!-- myself -->
+        <section class="container t_white">
+    <div class="row">
+        <div id="c_ourinfo" class="col-xs-12">
+            <h1><strong>MY INFO</strong></h1>
+            <hr>
+            <p class="lead">こんにちは、Junです。
+                <br>ここは私のホームページです．
+                <br>各SNSへはこちらから行けます．
+            </p>
+            <h3><strong>気になる & 追いかけてる分野</strong></h3>
+            <ul class="lead">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <li>Android アプリ開発</li>
+                        <li>ホームページ制作</li>
+                        <li>映像技術研究</li>
+                        <li>ガジェット</li>
+                        <li>サーバー</li>
+                        <li>Unity</li>
+                        <li>VR / AR</li>
+                    </div>
+                    <div class="col-sm-6">
+                        <li>Unity</li>
+                        <li>AndroidStudio / Eclipse</li>
+                        <li>Xcode</li>
+                        <li>OpenCV</li>
+                        <li>Linux</li>
+                        <li>Git</li>
+                    </div>
+                </div>
+            </ul>
+            <hr>
+            <h3><strong>言語</strong></h3>
+            <ul class="lead">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <li>C / C++</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </div>
+                    <div class="col-sm-6">
+                        <li>Ruby (Ruby on Rails)</li>
+                        <li>HTML / CSS</li>
+                        <li>Python</li>
+                        <li>Swift</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <div id="bg_mosaic"></div>
+
+    <div id="maximage">
+        <img src="/assets/img/catch1.jpg" />
+        <img src="/assets/img/catch2.jpg" />
+        <img src="/assets/img/catch3.jpg" />
+        <img src="/assets/img/catch4.jpg" />
+        <img src="/assets/img/catch5.jpg" />
+        <img src="/assets/img/catch6.jpg" />
+        <img src="/assets/img/catch7.jpg" />
+        <img src="/assets/img/catch8.jpg" />
+        <img src="/assets/img/catch9.jpg" />
+        <img src="/assets/img/catch10.jpg" />
+    </div>
+
+    <!-- include javascripts -->
+    <!-- javascript libraries -->
+<script src="/assets/js/lib.js"></script>
+
+<!-- custom scripts -->
+<script>
+    $(function() {
+        $("#maximage").maximage({
+                cycleOptions: {
+                    timeout: 5e3
+                }
+            }), $("#c_ourinfo").fadeIn(500), $("#c_works").hide(), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic2_b.png"), url("/assets/img/bg_mosaic3_b.png")'),
+            $("#b_home").click(function() {
+                $("#c_ourinfo").hide(), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic1_b.png")')
+            }),
+            $("#b_ourinfo").click(function() {
+                $("#c_ourinfo").fadeIn(500), $("#bg_mosaic").css("background", 'url("/assets/img/bg_mosaic2_b.png"), url("/assets/img/bg_mosaic3_b.png")')
+            })
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $(".navbar-nav li a").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
+</script>
+
+</body>
+
+</html>
